@@ -19,7 +19,7 @@ def test_generic1() :
     assert a!=b
 
 def test_exception() :
-    a = 15
+    a = 5
     print ("in exception")
     with pytest.raises (ValueError) :
         if a not in range(10, 20) :
